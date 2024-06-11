@@ -11,4 +11,4 @@ def api():
     return jsonify(data)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='4000')
+    app.run()
